@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html>
+
+
+   
+    
+        <title>Campsite</title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="description" content="Simple, clean, responsive website built with html5, CSS3, Js, jQuery and Bootstrap">
+        
+        <meta name="keywords" content="web, design, html, css, html5, css3, javascript, jquery, bootstrap, development">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        
+         <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500italic,600italic,600,700,700italic,300italic,300,400,400italic,800,900' rel='stylesheet' type='text/css'>
+        
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600italic,700,900' rel='stylesheet' type='text/css'>
+        
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+        <link href="style.css" type="text/css" rel="stylesheet" />
+        
+        <!-- Fontawesome  -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+        <!-- Animate CSS -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <!-- BX slider CSS -->
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    
+        <!-- javascript -->
+    <script type="text/javascript">
+    $(function(){
+      alert("My First Jquery Test");
+   });
+</script>  
+    
+        <!-- responsive css -->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        
+<body>
+
+
+    <header> 
+
+
+     
+        <div class="header">
+        <div class="header-text">
+
+
+      
+                
+                <!-- single row -->
+                <div class="row">
+                
+
+                    
+                    
+                    <!-- col-left -->
+                    <div class="header-text">
+
+   
+                      
+
+                        
+                                                    <li><a class="btn btn-logo" href="index.html"><img src="/images/amberlogo.png" alt="amberlogo" width="100px"></a>  </li>
+                                               <!-- col-right -->
+                    <div class="nav">
+                        <ul>
+                            <li><a class="btn btn-download" href="Projects.html">Home</a>  </li>
+                            <li><a class="btn btn-download" href="3D.html">Reservations</a>  </li>
+                            <li><a class="btn btn-download" href="2D.html">Gallery</a>  </li>
+                            <li><a class="btn btn-download" href="Contact.html"> Contact us</a>  </li>
+          
+                        </ul>
+<div id="right-fillter"></div>
+              
+                        <br>
+                                                <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                                                            </div>
+
+
+
+
+                </div>
+            </div>
+            
+            </div>
+            
+            
+
+        
+        </div>
+    </header>
+        
+        
+        
+<!-- Slideshow container -->
+
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="/images/topscroll/1.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="/images/topscroll/2.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="/images/topscroll/3.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+
+    
+    
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+      
+  }
+  slideIndex++;
+    
+  if (slideIndex > slides.length) {slideIndex = 1} 
+    
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+</script>
+    
+    <div class = "experience">
+        <br>
+        <br>
+        <br>
+        <br>
+        
+     <div class = "row">
+        <div class = "column1">
+            
+            <h1>The Amber Ridge Experience</h1>
+            <br>
+
+            <p>Attention bird-watchers and outdoor enthusiasts: This beautiful South Texas RV Park features 47 wooded acres of wildlife area. Come visit us and experience one of our 46 Cabins and Cottages or one of our RV and tent sites. Enjoy hiking and swimming in our pool. Keep an eye out for arrowheads; this site is a Karankawa Indian state archaeological landmark. It’s a great central location for day trips to San Antonio, Gulf of Mexico, Padre Island National Seashore, Texas State Aquarium, Mexico and more. This location is perfect for your family reunion or rally. Scheduled activities from November 20 to March 1. WiFi is available. What more could a weary overnighter ask for? You may decide to stay a month or two
+        </p>
+
+        </div>
+        <div class = "column2">
+            
+            <img src="images/Mount-Mitchell-State-Park-5a566ede9ea6a.jpg" style="height: 350px;">
+            
+            </div>
+    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+            </div>
+
+    <div class="features">
+        <div class="row">
+            
+            
+            
+ 
+  <div class="column">
+                
+                <ul class="a">
+ <li class="a">Campers and RV</li>
+ <li class="a">Fishing</li>
+ <li class="a">Full hookup</li>
+ <li class="a">Hot Showers</li>
+ <li class="a">Internet Access</li>
+ <li class="a">Laundry</li>
+ <li class="a">Pets Allowed</li>
+ <li class="a">Pool</li>
+ <li class="a">Tents</li>
+                    </ul>
+  </div>
+  <div class="column" >
+                    <ul class ="a">
+<li class="a">50 Amp Sites</li>
+<li class="a">90′ Max Length</li>
+<li class="a">Snack Bar</li>
+<li class="a">Propane</li>
+<li class="a">Firewood</li>
+<li class="a">Kitchen</li>
+<li class="a">Gated Entrance</li>
+<li class="a">Planned Activities</li> 
+<li class="a">Families Welcome</li>
+<li class="a">Groups Welcome</li>
+                    
+                   </ul> 
+      
+  </div>
+  <div class="column" >
+<img src="images/North-Carolina_Fall-Winter-Camping.jpg" style="height: 350px;">
+      
+     
+      
+  </div>
+</div>
+
+    
+    </div>
+
+  
+    
+    <div class="attractions">
+    
+    <h1>Nearby Attractions</h1>
+        <br>
+        <div class="column" style="padding-left: 50px;">
+            <a class="btn btn-download" href="Projects.html"><img src="images/3.jpg" style="height: 300px;"></a>
+            
+            
+        </div>
+        <div class="column" >
+            <a class="btn btn-download" href="Projects.html"><img src="images/4.jpg" style="height: 300px;"></a>
+            
+            
+        </div>
+        <div class="column" >
+            <a class="btn btn-download" href="Projects.html"><img src="images/5.jpg" style="height: 300px;"></a>
+            
+            
+        </div>
+    
+    </div>
+    
+    
+    
+    
+
+        <div class="foot1">
+    
+
+            
+        <div class="column" style="padding-left: 125px;">
+            <a class="btn btn-download" href="Projects.html"><p>Camp Rules</p></a>
+<br>
+            <a class="btn btn-download" href="Projects.html"><p>Pricing</p></a>
+            
+        </div>
+        <div class="column" style="padding-left: 55px; text-align: center;">
+            <a class="btn btn-download" href="Projects.html"><p>3952 Otter Creek Rd</p><p>Topton, NC</p><p> 28781</p></a>
+            
+            
+        </div>
+        <div class="column" style="padding-left: 175px;">
+
+            <a class="btn btn-download" href="Projects.html"><p>Call us: 254-549-9875</p></a>
+            <a class="btn btn-download" href="Projects.html"><p>Ambercreek@hotmail.com</p></a>
+        </div>
+    
+    </div>
+    
+    
+
+
+</body>
+        
+        
+
+    
+    
+</html>
